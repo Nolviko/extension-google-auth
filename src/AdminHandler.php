@@ -24,7 +24,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 
 /**
- * `/extensions/nolviko/google/admin` (owner decision 2026-11-15): the site owner sets up Sign in with Google without
+ * `/ext/nolviko/google/admin` (owner decision 2026-11-15): the site owner sets up Sign in with Google without
  * touching files. Shows the address to register at Google, takes the client ID and secret (the secret is sealed and
  * never shown again; an empty field keeps it) and can remove them. Administrators only, with a password confirmation
  * from the last 15 minutes; every change is audited. Values from config/local.php win and are shown read-only.
